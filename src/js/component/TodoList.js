@@ -38,6 +38,7 @@ const TodoList = () => {
 					deleteTodo={deleteTodo}
 				/>
 			))}
+			<div className="remaining-todos"> {todos.length} item left </div>
 		</>
 	);
 };
